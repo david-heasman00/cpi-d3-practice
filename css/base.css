@@ -99,3 +99,16 @@ a:hover, a:focus {
   font-size: 1.2rem;
   font-family: 'Source Sans 3', sans-serif
 }
+
+/* Logo */
+.source {
+    display: flex;
+    justify-content: space-between; /* Distribute space between source text and logo */
+    align-items: center; /* Vertically align text and logo */
+}
+
+.source .logo img {
+    height: 50px; /* Adjust the height of the logo as needed */
+    width: auto;  /* Maintain the aspect ratio */
+    margin-left: auto; /* Align the logo to the right */
+}
