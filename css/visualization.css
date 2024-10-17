@@ -7,3 +7,9 @@
     margin: 0 auto;
     max-width: 300px;
   }
+
+/*Text formatting of the axis labels */
+.axis-x text, .axis-y text {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 14px;
+}

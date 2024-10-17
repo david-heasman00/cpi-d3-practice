@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UK Inflation in D3.JS | The Heasman</title>
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+    <link rel="stylesheet" type="text/css" href="css/visualization.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <h1>UK Inflation data</h1>
+        <div class="row">
+            <div class="col col-9">
+                <h2>UK Inflation dropped to 1.7% in September 2024</h2>
+                <h3>CPI Inflation – annual change %</h3>
+                <div class="responsive-svg-container">
+                    <div id="scatterplot-chart"></div>
+                </div>
+            </div>
+            <div class="col col-3">
+                <h2>UK Interest Rate</h2>
+                <div class="responsive-svg-container small">
+                </div>
+            </div>
+        </div>
+
+        <div class="source">
+            <p>Source: <a href="https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/september2024">ONS</a></p>
+            <p>David Heasman</p>
+        </div>
+    </div>
+
+    <!-- Load scripts here -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="js/scatterplot-chart.js"></script>
+
+</body>
+
+</html>
