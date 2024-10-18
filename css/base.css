@@ -97,18 +97,27 @@ a:hover, a:focus {
 .source {
   padding: 50px 0 30px;
   font-size: 1.2rem;
-  font-family: 'Source Sans 3', sans-serif
+  font-family: 'Source Sans 3', sans-serif;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
 }
 
-/* Logo */
-.source {
-    display: flex;
-    justify-content: space-between; /* Distribute space between source text and logo */
-    align-items: center; /* Vertically align text and logo */
+.source-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.source p {
+  margin: 0;
+}
+
+.source .logo {
+  margin-left: 500px;
 }
 
 .source .logo img {
-    height: 50px; /* Adjust the height of the logo as needed */
-    width: auto;  /* Maintain the aspect ratio */
-    margin-left: auto; /* Align the logo to the right */
+  height: 3.3rem;
+  width: auto;
 }
